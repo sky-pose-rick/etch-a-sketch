@@ -11,13 +11,17 @@
 .row {
     display: flex;
     flex: auto;
-    margin: 1px;
+    margin-top: 1px;
 }
 
 .cell {
     width: 100%;
     height: 100%;
     background-color: gray;
-    margin: 1px;
+    margin-left: 1px;
     flex: auto;
+}
+
+.hovered {
+    background-color: green;
 }
