@@ -1,3 +1,8 @@
+#buttons {
+    margin: 10px auto auto auto;
+    width: max-content;
+}
+
 #container {
     display: flex;
     flex-direction: column;
@@ -6,6 +11,8 @@
     height: 75vh;
     width: 75vh;
     margin: 50px auto auto auto;
+    border: solid 3px black;
+    background-color: white;
 }
 
 .row {
@@ -17,11 +24,10 @@
 .cell {
     width: 100%;
     height: 100%;
-    background-color: gray;
     margin-left: 1px;
     flex: auto;
 }
 
 .hovered {
-    background-color: green;
+    background-color: rgba(0,0,0,1);
 }
